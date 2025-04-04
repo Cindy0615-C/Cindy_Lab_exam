@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\catherine\\source\\repos\\Lab_exam_IPT_Cindy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0BBB2D6F-437E-43C5-AA12-FAC191040A4C}|Lab_exam_IPT_Cindy.csproj|c:\\users\\catherine\\source\\repos\\lab_exam_ipt_cindy\\studentpageindividualform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BBB2D6F-437E-43C5-AA12-FAC191040A4C}|Lab_exam_IPT_Cindy.csproj|solutionrelative:studentpageindividualform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BBB2D6F-437E-43C5-AA12-FAC191040A4C}|Lab_exam_IPT_Cindy.csproj|c:\\users\\catherine\\source\\repos\\lab_exam_ipt_cindy\\studentpageindividualform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BBB2D6F-437E-43C5-AA12-FAC191040A4C}|Lab_exam_IPT_Cindy.csproj|solutionrelative:studentpageindividualform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BBB2D6F-437E-43C5-AA12-FAC191040A4C}|Lab_exam_IPT_Cindy.csproj|c:\\users\\catherine\\source\\repos\\lab_exam_ipt_cindy\\studentpageform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BBB2D6F-437E-43C5-AA12-FAC191040A4C}|Lab_exam_IPT_Cindy.csproj|solutionrelative:studentpageform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BBB2D6F-437E-43C5-AA12-FAC191040A4C}|Lab_exam_IPT_Cindy.csproj|c:\\users\\catherine\\source\\repos\\lab_exam_ipt_cindy\\studentpageform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BBB2D6F-437E-43C5-AA12-FAC191040A4C}|Lab_exam_IPT_Cindy.csproj|solutionrelative:studentpageform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BBB2D6F-437E-43C5-AA12-FAC191040A4C}|Lab_exam_IPT_Cindy.csproj|c:\\users\\catherine\\source\\repos\\lab_exam_ipt_cindy\\studentpageindividualform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0BBB2D6F-437E-43C5-AA12-FAC191040A4C}|Lab_exam_IPT_Cindy.csproj|solutionrelative:studentpageindividualform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentPageIndividualForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\catherine\\source\\repos\\Lab_exam_IPT_Cindy\\StudentPageIndividualForm.Designer.cs",
+              "RelativeDocumentMoniker": "StudentPageIndividualForm.Designer.cs",
+              "ToolTip": "C:\\Users\\catherine\\source\\repos\\Lab_exam_IPT_Cindy\\StudentPageIndividualForm.Designer.cs*",
+              "RelativeToolTip": "StudentPageIndividualForm.Designer.cs*",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAAAJEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T07:33:30.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentPageIndividualForm.cs",
+              "DocumentMoniker": "C:\\Users\\catherine\\source\\repos\\Lab_exam_IPT_Cindy\\StudentPageIndividualForm.cs",
+              "RelativeDocumentMoniker": "StudentPageIndividualForm.cs",
+              "ToolTip": "C:\\Users\\catherine\\source\\repos\\Lab_exam_IPT_Cindy\\StudentPageIndividualForm.cs*",
+              "RelativeToolTip": "StudentPageIndividualForm.cs*",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T07:33:04.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentPageForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\catherine\\source\\repos\\Lab_exam_IPT_Cindy\\StudentPageForm.Designer.cs",
+              "RelativeDocumentMoniker": "StudentPageForm.Designer.cs",
+              "ToolTip": "C:\\Users\\catherine\\source\\repos\\Lab_exam_IPT_Cindy\\StudentPageForm.Designer.cs*",
+              "RelativeToolTip": "StudentPageForm.Designer.cs*",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T07:31:39.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentPageIndividualForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\catherine\\source\\repos\\Lab_exam_IPT_Cindy\\StudentPageIndividualForm.cs",
+              "RelativeDocumentMoniker": "StudentPageIndividualForm.cs",
+              "ToolTip": "C:\\Users\\catherine\\source\\repos\\Lab_exam_IPT_Cindy\\StudentPageIndividualForm.cs [Design]*",
+              "RelativeToolTip": "StudentPageIndividualForm.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T07:31:16.359Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentPageForm.cs",
+              "DocumentMoniker": "C:\\Users\\catherine\\source\\repos\\Lab_exam_IPT_Cindy\\StudentPageForm.cs",
+              "RelativeDocumentMoniker": "StudentPageForm.cs",
+              "ToolTip": "C:\\Users\\catherine\\source\\repos\\Lab_exam_IPT_Cindy\\StudentPageForm.cs*",
+              "RelativeToolTip": "StudentPageForm.cs*",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T05:56:15.102Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
