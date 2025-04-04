@@ -1,0 +1,71 @@
+-- Create Database
+CREATE DATABASE StudentDB;
+USE StudentDB;
+
+-- Create Course Table
+CREATE TABLE CourseTB (
+    courseId INT PRIMARY KEY,
+    courseName VARCHAR(250)
+);
+
+-- Create Year Table
+CREATE TABLE YearTB (
+    yearId INT PRIMARY KEY,
+    yearLvl INT
+);
+
+-- Insert Data into Course Table
+INSERT INTO CourseTB (courseId, courseName)
+VALUES 
+    (1, "IT"), 
+    (2, "BSBA"), 
+    (3, "ABEL"), 
+    (4, "BPA");
+
+-- Insert Data into Year Table
+INSERT INTO YearTB (yearId, yearLvl)
+VALUES 
+    (1, 1), 
+    (2, 2), 
+    (3, 3), 
+    (4, 4);
+
+-- Create Student Record Table
+CREATE TABLE StudentRecordTB (
+    studentId INT PRIMARY KEY,
+    firstName VARCHAR(250),
+    lastName VARCHAR(250),
+    middleName VARCHAR(250),
+    houseNo INT,
+    brgyName VARCHAR(250),
+    municipality VARCHAR(250),
+    province VARCHAR(250),
+    region VARCHAR(250),
+    country VARCHAR(250),
+    birthdate DATE,
+    age INT,
+    studContactNo VARCHAR(250),
+    emailAddress VARCHAR(250),
+    guardianFirstName VARCHAR(250),
+    guardianLastName VARCHAR(250),
+    hobbies VARCHAR(250),
+    nickname VARCHAR(250),
+    courseId INT,
+    yearId INT,
+    FOREIGN KEY (courseId) REFERENCES CourseTB(courseId),
+    FOREIGN KEY (yearId) REFERENCES YearTB(yearId)
+);
+
+-- Insert Five Student Records
+INSERT INTO StudentRecordTB 
+(studentId, firstName, lastName, middleName, houseNo, brgyName, municipality, province, region, country, birthdate, age, studContactNo, emailAddress, guardianFirstName, guardianLastName, hobbies, nickname, courseId, yearId) 
+VALUES 
+(1, 'John', 'Doe', 'A.', 123, 'Brgy 1', 'City A', 'Province X', 'Region I', 'Country Y', '2002-05-10', 22, '09123456789', 'johndoe@email.com', 'Jane', 'Doe', 'Reading', 'Johnny', 1, 1),
+
+(2, 'Maria', 'Santos', 'B.', 456, 'Brgy 2', 'City B', 'Province Y', 'Region II', 'Country Y', '2003-08-15', 21, '09234567890', 'mariasantos@email.com', 'Jose', 'Santos', 'Dancing', 'Mia', 2, 2),
+
+(3, 'Carlos', 'Garcia', 'C.', 789, 'Brgy 3', 'City C', 'Province Z', 'Region III', 'Country Y', '2001-12-20', 23, '09345678901', 'carlosgarcia@email.com', 'Ana', 'Garcia', 'Painting', 'Carl', 3, 3),
+
+(4, 'Angela', 'Reyes', 'D.', 101, 'Brgy 4', 'City D', 'Province A', 'Region IV', 'Country Y', '2004-07-25', 20, '09456789012', 'angelareyes@email.com', 'Pedro', 'Reyes', 'Singing', 'Angie', 4, 4),
+
+(5, 'Michael', 'Cruz', 'E.', 202, 'Brgy 5', 'City E', 'Province B', 'Region V', 'Country Y', '2002-10-30', 22, '09567890123', 'michaelcruz@email.com', 'Luis', 'Cruz', 'Gaming', 'Mike', 1, 1);
